@@ -1293,3 +1293,15 @@ td small {
     flex-wrap: wrap;
   }
 }
+
+/* Recovery dashboard right-side layout */
+.recovery-side-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 0;
+}
+
+.recovery-side-stack .page-panel {
+  min-height: 0;
+}

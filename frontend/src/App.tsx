@@ -1,4 +1,3 @@
-
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Activity,
@@ -1252,9 +1251,11 @@ export default function App() {
             </div>
 
 
-            {/* MANUAL ANALYSIS */}
+            <div className="recovery-side-stack">
 
-            <div className="panel page-panel">
+              {/* MANUAL ANALYSIS */}
+
+              <div className="panel page-panel">
               <PanelHead
                 eyebrow="DISRUPTION RESPONSE"
                 title="Analyze helper vehicle"
@@ -1614,6 +1615,9 @@ export default function App() {
                 </div>
               )}
             </div>
+
+            </div> {/* recovery-side-stack */}
+
           </section>
         )}
 
